@@ -66,23 +66,23 @@ if (isset($_GET['course_display'])) {
                                             <select class="form-control" name="eay" id="academic_year">
                                                 <?php
                                                 // URl error 
-                                                $getEAY1 = $db->query("SELECT * FROM tbl_effective_acadyear WHERE eay = '$_GET[eay]'") or die($db->error);
+                                                $getEAY1 = $db->query("SELECT * FROM tbl_effective_acadyear WHERE eay_id = '$_GET[eay]'") or die($db->error);
                                                 $count = $getEAY1->num_rows;
                                                 if (!empty($_GET['eay']) && $count > 0) {
-                                                    $getEAY = $db->query("SELECT * FROM tbl_effective_acadyear WHERE eay IN ('$_GET[eay]')") or die($db->error);
+                                                    $getEAY = $db->query("SELECT * FROM tbl_effective_acadyear WHERE eay_id IN ('$_GET[eay]')") or die($db->error);
                                                     while ($row = $getEAY->fetch_array()) {
-                                                        echo '<option selected value="' . $row['eay'] . '">' . $row['eay'] . '</option>';
+                                                        echo '<option selected value="' . $row['eay_id'] . '">' . $row['eay'] . '</option>';
                                                     }
-                                                    $getEAY2 = $db->query("SELECT * FROM tbl_effective_acadyear WHERE eay NOT IN ('$_GET[eay]') ORDER BY eay DESC") or die($db->error);
+                                                    $getEAY2 = $db->query("SELECT * FROM tbl_effective_acadyear WHERE eay_id NOT IN ('$_GET[eay]') ORDER BY eay DESC") or die($db->error);
                                                     while ($row = $getEAY2->fetch_array()) {
-                                                        echo '<option value="' . $row['eay'] . '">' . $row['eay'] . '</option>';
+                                                        echo '<option value="' . $row['eay_id'] . '">' . $row['eay'] . '</option>';
                                                     }
                                                 } else {
                                                     echo '<option selected  value="">Select a year
                                                         </option>';
                                                     $getEAY3 = $db->query("SELECT * FROM tbl_effective_acadyear ORDER BY eay DESC") or die($db->error);
                                                     while ($row = $getEAY3->fetch_array()) {
-                                                        echo '<option value="' . $row['eay'] . '">' . $row['eay'] . '</option>';
+                                                        echo '<option value="' . $row['eay_id'] . '">' . $row['eay'] . '</option>';
                                                     }
                                                 } ?>
                                             </select>
@@ -105,7 +105,7 @@ if (isset($_GET['course_display'])) {
                             <form action="list.subject.php" method="GET">
                                 <?php
                                     $GETallcourse = mysqli_query($db, "SELECT * FROM tbl_courses WHERE course_id IN 
-                                    (SELECT DISTINCT S.course_id FROM tbl_subjects_new S LEFT JOIN tbl_effective_acadyear EAY ON EAY.eay_id = S.eay_id INNER JOIN tbl_courses C ON C.course_id = S.course_id  WHERE EAY.eay = '$eay_c')
+                                    (SELECT DISTINCT S.course_id FROM tbl_subjects_new S LEFT JOIN tbl_effective_acadyear EAY ON EAY.eay_id = S.eay_id INNER JOIN tbl_courses C ON C.course_id = S.course_id  WHERE EAY.eay_id = '$eay_c')
                                      ORDER BY department_id, course_abv")or die($db->error); 
                                     while ($DISPLAYcourse = mysqli_fetch_array($GETallcourse)) {
                                         echo '
@@ -158,7 +158,7 @@ if (isset($_GET['course_display'])) {
                                                 LEFT JOIN tbl_year_levels ON tbl_year_levels.year_id = tbl_subjects_new.year_id
                                                 LEFT JOIN tbl_semesters ON tbl_semesters.sem_id = tbl_subjects_new.sem_id
                                                 LEFT JOIN tbl_effective_acadyear EAY ON EAY.eay_id = tbl_subjects_new.eay_id
-                                                WHERE tbl_subjects_new.course_id IN ('$course') ORDER BY tbl_year_levels.year_level ASC, subj_id") or die($db->error);
+                                                WHERE tbl_subjects_new.course_id IN ('$course') AND tbl_subjects_new.eay_id = '$eay_c' ORDER BY tbl_year_levels.year_level ASC, subj_id") or die($db->error);
 
                                     ?>
 
