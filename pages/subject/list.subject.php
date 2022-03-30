@@ -141,6 +141,8 @@ if (isset($_GET['course_display'])) {
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
                                             Course</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
+                                            Curriculum</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
                                             Year Level</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
                                             Semester</th>
@@ -177,6 +179,7 @@ if (isset($_GET['course_display'])) {
                                             <?php echo $row['unit_lec']; ?></td>
                                         <td class="text-sm font-weight-normal"><?php echo $row['prereq']; ?></td>
                                         <td class="text-sm font-weight-normal"><?php echo $row['course']; ?></td>
+                                        <td class="text-sm font-weight-normal"><?php echo $row['eay']; ?></td>
                                         <td class="text-sm font-weight-normal"><?php echo $row['year_level']; ?>
                                         </td>
                                         <td class="text-sm font-weight-normal"><?php echo $row['semester']; ?>
