@@ -8,7 +8,7 @@ $_SESSION['ay_id'] = $id;
 
 ?>
 <title>
-    Edit Academic Year | SFAC - Las Piñas
+    Edit Academic Year | SFAC - Bacoor
 </title>
 </head>
 

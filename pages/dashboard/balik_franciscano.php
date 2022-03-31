@@ -5,7 +5,7 @@ include '../../includes/head.php';
 include '../../includes/session.php';
 ?>
 <title>
-    Balik Franciscano | SFAC - Las Piñas
+    Balik Franciscano | SFAC - Bacoor
 </title>
 </head>
 

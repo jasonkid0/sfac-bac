@@ -14,13 +14,15 @@ if ($_SESSION['role'] == "Super Administrator" || $_SESSION['role'] == "Adviser"
 $_SESSION['facultyStaff_id'] = $facultyStaff_id;
 ?>
 
-
+<title>
+    Edit Teacher List | SFAC - Bacoor
+</title>
 <body class="g-sidenav-show  bg-gray-100">
     <?php include '../../includes/sidebar.php'; ?>
     <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
         <!-- Navbar -->
         <?php include '../../includes/navbar-title.php'; ?>
-        <h6 class="font-weight-bolder mb-0">Edit Account</h6>
+        <h6 class="font-weight-bolder mb-0">Edit Teacher's Account</h6>
         <?php include '../../includes/navbar.php'; ?>
         <!-- End Navbar -->
 

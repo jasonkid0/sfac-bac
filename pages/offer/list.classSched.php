@@ -7,7 +7,7 @@ if (!empty($_GET['CID'])) {
 }
 ?>
 <title>
-    Class Schedules List | SFAC - Las Piñas
+    Class Schedules List | SFAC - Bacoor
 </title>
 </head>
 

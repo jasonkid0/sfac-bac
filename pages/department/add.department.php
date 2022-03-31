@@ -6,7 +6,7 @@ include '../../includes/session.php';
 
 ?>
 <title>
-    Add Department | SFAC - Las Piñas
+    Add Department | SFAC - Bacoor
 </title>
 </head>
 

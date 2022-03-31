@@ -4,7 +4,7 @@ include '../../includes/head.php';
 include '../../includes/session.php';
 ?>
 <title>
-    Online Inquiries | SFAC - Las Piñas
+    Online Inquiries | SFAC - Bacoor
 </title>
 </head>
 

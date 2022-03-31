@@ -960,7 +960,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../acad/effectiveAY.php">
                                 <span class="sidenav-mini-icon text-xs"> </span>
-                                <span class="sidenav-normal font-weight-bold">Effective A.Y.</span>
+                                <span class="sidenav-normal font-weight-bold">Add Curriculum Year</span>
                             </a>
                         </li>
 

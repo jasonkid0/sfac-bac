@@ -4,7 +4,7 @@ include '../../includes/head.php';
 include '../../includes/session.php';
 ?>
 <title>
-    Academic Year List | SFAC - Las Piñas
+    Academic Year List | SFAC - Bacoor
 </title>
 </head>
 

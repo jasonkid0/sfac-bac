@@ -10,7 +10,7 @@ $_SESSION['admin_id'] = $admin_id;
 
 ?>
 <title>
-    Edit Account | SFAC - Las Piñas
+    Edit Account | SFAC - Bacoor
 </title>
 </head>
 

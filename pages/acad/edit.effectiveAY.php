@@ -5,7 +5,7 @@ include '../../includes/session.php';
 $_SESSION['eay_id'] = $_GET['id'];
 ?>
 <title>
-    Edit Effective Academic Year | SFAC - Las Piñas
+    Edit Effective Academic Year | SFAC - Bacoor
 </title>
 </head>
 

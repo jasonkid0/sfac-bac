@@ -4,7 +4,7 @@ include '../../includes/head.php';
 include '../../includes/session.php';
 ?>
 <title>
-    Add Adviser | SFAC - Las Piñas
+    Add Adviser | SFAC - Bacoor
 </title>
 </head>
 

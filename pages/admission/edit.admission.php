@@ -10,7 +10,7 @@ $_SESSION['admission_id'] = $admission_id;
 
 ?>
 <title>
-    Edit Account | SFAC - Las Piñas
+    Edit Account | SFAC - Bacoor
 </title>
 </head>
 

@@ -10,7 +10,7 @@ if (!empty($_GET['CID'])) {
 }
 ?>
 <title>
-    Offer Subjects | SFAC - Las Piñas
+    Offer Subjects | SFAC - Bacoor
 </title>
 </head>
 
@@ -132,6 +132,8 @@ if (!empty($_GET['CID'])) {
                                             Unit(s)</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
                                             Prerequisites</th>
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
+                                            Curriculum</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
                                             Level</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
@@ -186,6 +188,7 @@ if (!empty($_GET['CID'])) {
                                             <?php echo $row['unit_total']; ?></td>
                                         <td class="text-sm font-weight-normal">
                                             <?php echo $row['prereq']; ?></td>
+                                            <td class="text-sm font-weight-normal"><?php echo $row['eay']; ?></td>
                                         <td class="text-sm font-weight-normal">
                                             <?php echo $row['year_level']; ?></td>
                                         <td class="text-sm font-weight-normal">

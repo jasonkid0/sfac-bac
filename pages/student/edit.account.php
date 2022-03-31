@@ -7,7 +7,7 @@ include '../../includes/session.php';
 $_SESSION['stud_id'] = $stud_id;
 ?>
 <title>
-    Edit Account | SFAC - Las Piñas
+    Edit Account | SFAC - Bacoor
 </title>
 </head>
 

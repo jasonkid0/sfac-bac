@@ -9,7 +9,7 @@ if ($_SESSION['role'] == "Super Administrator" || $_SESSION['role'] == "Registra
 $_SESSION['faculty_id'] = $faculty_id;
 ?>
 <title>
-    Edit Account | SFAC - Las Piñas
+    Edit Account | SFAC - Bacoor
 </title>
 </head>
 

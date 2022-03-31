@@ -11,7 +11,7 @@ $_SESSION['dean_id'] = $dean_id;
 
 ?>
 <title>
-    Edit Account | SFAC - Las Piñas
+    Edit Account | SFAC - Bacoor
 </title>
 </head>
 

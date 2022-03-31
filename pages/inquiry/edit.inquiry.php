@@ -10,7 +10,7 @@ $or_id = $_GET['or_id'];
 $_SESSION['or_id'] = $or_id;
 ?>
 <title>
-    Admit Online Inquiry | SFAC - Las Piñas
+    Admit Online Inquiry | SFAC - Bacoor
 </title>
 </head>
 

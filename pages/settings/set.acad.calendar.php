@@ -5,7 +5,7 @@ include '../../includes/session.php';
 
 ?>
 <title>
-    Set Academic Years & Semester | SFAC - Las Piñas
+    Set Academic Years & Semester | SFAC - Bacoor
 </title>
 </head>
 

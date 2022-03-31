@@ -8,7 +8,7 @@ $_POST['stud_id'] = $stud_id;
 
 ?>
 <title>
-    Student Grade History | SFAC - Las Piñas
+    Student Grade History | SFAC - Bacoor
 </title>
 </head>
 <!-- End Head -->

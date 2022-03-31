@@ -21,7 +21,7 @@ if (isset($_GET['course_display'])) {
 
 ?>
 <title>
-    Subject List | SFAC - Las Piñas
+    Subject List | SFAC - Bacoor
 </title>
 </head>
 
@@ -39,7 +39,7 @@ if (isset($_GET['course_display'])) {
                             <img src="../../assets/img/logos/logo.png" class="navbar-brand-img h-100" alt="main_logo"
                                 style="width: 40px; height: 40px;">
                         </li>
-                        <li class=" text-sm text-dark mt-2 ms-2" aria-current="page">SFAC Las Piñas</li>
+                        <li class=" text-sm text-dark mt-2 ms-2" aria-current="page">SFAC Bacoor</li>
                     </ol>
                     <h6 class="font-weight-bolder mb-0">View Subject List</h6>
                     

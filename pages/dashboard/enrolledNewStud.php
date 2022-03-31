@@ -4,7 +4,7 @@ include '../../includes/head.php';
 include '../../includes/session.php';
 ?>
 <title>
-    Enrolled New Students | SFAC - Las Piñas
+    Enrolled New Students | SFAC - Bacoor
 </title>
 </head>
 

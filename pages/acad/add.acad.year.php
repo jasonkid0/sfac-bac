@@ -5,7 +5,7 @@ include '../../includes/session.php';
 
 ?>
 <title>
-    Add New Academic Year | SFAC - Las Piñas
+    Add New Academic Year | SFAC - Bacoor
 </title>
 </head>
 

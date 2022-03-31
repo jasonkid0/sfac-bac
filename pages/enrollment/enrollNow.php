@@ -15,7 +15,7 @@ if ($count > 0) {
 
 ?>
 <title>
-    Enroll Now | SFAC - Las Piñas
+    Enroll Now | SFAC - Bacoor
 </title>
 </head>
 <!-- End Head -->

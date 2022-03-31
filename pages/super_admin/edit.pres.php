@@ -10,7 +10,7 @@ $_SESSION['pres_id'] = $pres_id;
 
 ?>
 <title>
-    Edit Account | SFAC - Las Piñas
+    Edit Account | SFAC - Bacoor
 </title>
 </head>
 

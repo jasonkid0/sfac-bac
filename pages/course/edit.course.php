@@ -7,7 +7,7 @@ $id                    = $_GET['course_id'];
 $_SESSION['course_id'] = $id;
 ?>
 <title>
-    Edit Course | SFAC - Las Piñas
+    Edit Course | SFAC - Bacoor
 </title>
 </head>
 

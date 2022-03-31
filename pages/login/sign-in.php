@@ -31,7 +31,7 @@ unset($_SESSION['email']);
     <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../../assets/img/logos/logo.png">
     <title>
-        Sign In | SFAC-BAC
+        Sign In | SFAC-BACOOR
     </title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -140,8 +140,8 @@ unset($_SESSION['email']);
                             <div class="card card-plain mt-8" style="background-color: rgba(255,255,255, 0.9);">
                                 <div class="card-header pb-0 text-center bg-transparent">
                                     <h3 class="font-weight-bolder text-danger text-gradient">
-                                        Welcome Franciscans</h3>
-                                    <p class="mb-0">Enter your username and password to sign in</p>
+                                        Welcome Franciscans!</h3>
+                                    <p class="mb-0">Please login your...</p>
                                 </div>
 
                                 <?php if (isset($_SESSION['sessionP'])) {
@@ -182,7 +182,7 @@ unset($_SESSION['email']);
                                         </div>
                                         <div class="form-check form-switch">
                                             <a href="reset_password.php" class="text-sm myhover">
-                                                forgot password</a>
+                                                Did you forgot your password ?</a>
                                         </div>
                                         <div class="text-center">
                                             <button type="submit" name="signin"
@@ -204,7 +204,7 @@ unset($_SESSION['email']);
                             <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8"
                                 style="z-index:1;">
                                 <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6"
-                                    style="background-image:url('../../assets/img/curved-images/5.jpg'); background-position: 100% 100%; background-repeat: no-repeat;">
+                                    style="background-image:url('../../assets/img/curved-images/12.jpg'); background-position: 100% 100%; background-repeat: no-repeat;">
                                 </div>
                             </div>
                         </div>

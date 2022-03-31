@@ -4,7 +4,7 @@ include '../../includes/head.php';
 include '../../includes/session.php';
 ?>
 <title>
-    Effective Academic Year | SFAC - Las Piñas
+    Effective Academic Year | SFAC - Bacoor
 </title>
 </head>
 
@@ -13,7 +13,7 @@ include '../../includes/session.php';
     <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
         <!-- Navbar -->
         <?php include '../../includes/navbar-title.php'; ?>
-        <h6 class="font-weight-bolder mb-0">Effective Academic Year</h6>
+        <h6 class="font-weight-bolder mb-0">Curriculum Year</h6>
         <?php include '../../includes/navbar.php'; ?>
         <!-- End Navbar -->
 
@@ -21,13 +21,13 @@ include '../../includes/session.php';
             <div class="row mb-8">
                 <div class=" col-lg-4 col-12 mx-auto">
                     <div class="card card-body mt-4 shadow-sm">
-                        <h5 class="font-weight-bolder mb-0">Add Effective Academic Year</h5>
+                        <h5 class="font-weight-bolder mb-0">Add Curriculum Year</h5>
                         <p class="text-sm mb-0">Fill out the field!</p>
                         <hr class="horizontal dark my-3">
                         <form method="POST" enctype="multipart/form-data" action="acadData/ctrl.effectiveAY.php">
                             <div class="row justify-content-center">
                                 <div class="col-sm-10 text-center">
-                                    <label>Effective Academic Year</label>
+                                    <label>Curriculum Year</label>
                                     <input class="form-control text-center" data-format="0000-0000" type="text"
                                         placeholder="0000-0000" name="EAY" required>
                                 </div>
@@ -45,9 +45,9 @@ include '../../includes/session.php';
                     <div class="card shadow shadow-xl mt-4">
                         <!-- Card header -->
                         <div class="card-header">
-                            <h5 class="mb-0 font-weight-bolder">Effective Academic Years List</h5>
+                            <h5 class="mb-0 font-weight-bolder">Curriculum Year Lists</h5>
                             <p class="text-sm mb-0">
-                                This is a list of Effective Academic Year
+                                These are lists of Curriculum Years
                             </p>
                         </div>
                         <hr class="horizontal dark">

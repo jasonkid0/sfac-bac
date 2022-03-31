@@ -11,7 +11,7 @@ if ($_SESSION['role'] == "Super Administrator") {
 
 ?>
 <title>
-    Send Report | SFAC - Las Piñas
+    Send Report | SFAC - Bacoor
 </title>
 </head>
 

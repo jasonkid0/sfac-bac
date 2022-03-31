@@ -7,7 +7,7 @@ $subj_id = $_GET['subj_id'];
 $_SESSION['subj_id'] = $subj_id;
 ?>
 <title>
-    Edit Subjects | SFAC - Las Piñas
+    Edit Subjects | SFAC - Bacoor
 </title>
 </head>
 

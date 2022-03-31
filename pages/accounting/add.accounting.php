@@ -5,7 +5,7 @@ include '../../includes/head.php';
 include '../../includes/session.php';
 ?>
 <title>
-    Add Accounting | SFAC - Las Piñas
+    Add Accounting | SFAC - Bacoor
 </title>
 </head>
 

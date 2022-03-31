@@ -8,7 +8,7 @@ $_SESSION['account_id'] = $account_id;
 
 ?>
 <title>
-    Edit Account | SFAC - Las Piñas
+    Edit Account | SFAC - Bacoor
 </title>
 </head>
 

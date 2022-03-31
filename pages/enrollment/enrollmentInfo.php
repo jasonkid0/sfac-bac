@@ -21,7 +21,7 @@ if ($_SESSION['role'] == "Student") {
 
 ?>
 <title>
-    Enrollment Information | SFAC - Las Piñas
+    Enrollment Information | SFAC - Bacoor
 </title>
 </head>
 <!-- End Head -->
@@ -355,10 +355,10 @@ if ($_SESSION['role'] == "Student") {
                                                                                 Time</th>
                                                                             <th
                                                                                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
-                                                                                Room</th>
+                                                                                Curri</th>
                                                                             <th
                                                                                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
-                                                                                E.A.Y</th>
+                                                                                Room</th>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -428,11 +428,12 @@ if ($_SESSION['role'] == "Student") {
                                                                                 <?php echo $row2['time']; ?>
                                                                             </td>
                                                                             <td class="text-sm font-weight-normal">
-                                                                                <?php echo $row2['room']; ?>
-                                                                            </td>
-                                                                            <td class="text-sm font-weight-normal">
                                                                                 <?php echo $row2['eay']; ?>
                                                                             </td>
+                                                                            <td class="text-sm font-weight-normal">
+                                                                                <?php echo $row2['room']; ?>
+                                                                            </td>
+                                                                            
                                                                         </tr>
                                                                         <?php } ?>
                                                                     </tbody>

@@ -7,11 +7,11 @@ include '../../includes/session.php';
 if ('Registrar' == $_SESSION['role'] || $_SESSION['role'] == "Adviser" || $_SESSION['role'] == "Super Administrator") {
     $stud_id = $_GET['stud_id'];
     echo '<title>
-    Edit Student | SFAC - Las Piñas
+    Edit Student | SFAC - Bacoor
 </title>';
 } elseif ($_SESSION['role'] == "Student") {
     echo '<title>
-    Personal info | SFAC - Las Piñas
+    Personal info | SFAC - Bacoor
 </title>';
 }
 $_SESSION['stud_id'] = $stud_id;
