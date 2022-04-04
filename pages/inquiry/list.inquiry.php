@@ -46,6 +46,8 @@ include '../../includes/session.php';
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
                                             Email</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
+                                            Last School Attended</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
                                             Status</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">
                                             Options</th>
@@ -77,6 +79,8 @@ include '../../includes/session.php';
                                             <?php echo $row['contact']; ?></td>
                                         <td class="text-sm font-weight-normal">
                                             <?php echo $row['email']; ?></td>
+                                        <td class="text-sm font-weight-normal">
+                                            <?php echo $row['lastschool']; ?></td>
                                         <?php
                                             if ($row['status'] == "Pending") {
                                             ?>

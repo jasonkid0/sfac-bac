@@ -217,6 +217,16 @@ $_SESSION['or_id'] = $or_id;
                                 </div>
                             </div>
 
+                            <div class="row">
+                                            <div class="col-sm-12">
+                                                <label class="form-label mt-4">Last School Attended</label>
+                                                <div class="input-group">
+                                                    <input id="lastschool" name="lastschool" class="form-control" type="text"
+                                                        placeholder="Last School Attended" value="<?php echo $row['lastschool']; ?>">
+                                                </div>
+                                            </div>
+                                         </div>
+
                         </div>
                     </div>
 

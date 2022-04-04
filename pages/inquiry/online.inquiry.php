@@ -295,6 +295,15 @@ session_start();
                                             </div>
 
                                         </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <label class="form-label mt-4">Last School Attended</label>
+                                                <div class="input-group">
+                                                    <input id="lastschool" name="lastschool" class="form-control" type="text"
+                                                        placeholder="Last School Attended">
+                                                </div>
+                                            </div>
+                                         </div>
                                     </div>
 
 
@@ -539,17 +548,18 @@ session_start();
                                         </div>
                                     </div>
 
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <label class="form-label mt-4">Address of School</label>
-                                        <div class="input-group">
-                                            <input id="lastAddress" name="lastAddress" class="form-control" type="text"
-                                                placeholder="Address of School">
-                                        </div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <label class="form-label mt-4">Address of School</label>
+                                            <div class="input-group">
+                                                <input id="lastAddress" name="lastAddress" class="form-control" type="text"
+                                                    placeholder="Address of School">
+                                            </div>
+                                        </div>
                                 </div>
-                            </div> -->
+                            </div> 
+                        -->
 
                                     <div class="card-body pt-0">
 

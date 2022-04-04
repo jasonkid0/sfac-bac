@@ -19,6 +19,7 @@ if (isset($_POST['submit'])) {
     $civilstatus  = mysqli_real_escape_string($db, $_POST['civilstatus']);
     $contact      = mysqli_real_escape_string($db, $_POST['contact']);
     $email        = mysqli_real_escape_string($db, $_POST['email']);
+    $lastschool   = mysqli_real_escape_string($db, $_POST['lastschool']);
     // $flastname    = mysqli_real_escape_string($db, $_POST['flastname']);
     // $ffirstname   = mysqli_real_escape_string($db, $_POST['ffirstname']);
     // $fmiddlename  = mysqli_real_escape_string($db, $_POST['fmiddlename']);
@@ -44,7 +45,7 @@ if (isset($_POST['submit'])) {
     // $hs           = mysqli_real_escape_string($db, $_POST['hs']);
     // $hsSY         = mysqli_real_escape_string($db, $_POST['hsSY']);
     // $hsAddress    = mysqli_real_escape_string($db, $_POST['hsAddress']);
-    // $lastschool   = mysqli_real_escape_string($db, $_POST['lastschool']);
+    
     // $courseYear  = mysqli_real_escape_string($db, $_POST['course-year']);
     // $lastSY       = mysqli_real_escape_string($db, $_POST['lastSY']);
     // $lastAddress  = mysqli_real_escape_string($db, $_POST['lastAddress']);
@@ -61,7 +62,7 @@ if (isset($_POST['submit'])) {
         $semester = $rowSem['semester'];
     }
 
-    $inquiryData = mysqli_query($db, "INSERT INTO tbl_online_registrations (admit_type, year_id, course_id, gender_id, lastname, firstname, middlename, address, birthdate, birthplace, age, religion, citizenship, civilstatus, contact, email, acad_year, semester, status) VALUES ('NEW STUDENT', '$year', '$course', '$gender', '$lastname', '$firstname', '$middlename', '$address', '$birthdate', '$birthplace', '$age', '$religion', '$citizenship', '$civilstatus', '$contact', '$email', '$acad_year', '$semester', 'Pending') ") or die(mysqli_error($db));
+    $inquiryData = mysqli_query($db, "INSERT INTO tbl_online_registrations (admit_type, year_id, course_id, gender_id, lastname, firstname, middlename, address, birthdate, birthplace, age, religion, citizenship, civilstatus, contact, email, lastschool, acad_year, semester, status) VALUES ('NEW STUDENT', '$year', '$course', '$gender', '$lastname', '$firstname', '$middlename', '$address', '$birthdate', '$birthplace', '$age', '$religion', '$citizenship', '$civilstatus', '$contact', '$email', '$lastschool', '$acad_year', '$semester', 'Pending') ") or die(mysqli_error($db));
     $_SESSION['inquiryComplete'] = true;
     header("location: ../online.inquiry.php");
 }
